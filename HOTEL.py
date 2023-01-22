@@ -1,5 +1,5 @@
 import mysql.connector as mysql
-mydb=mysql.connect(host='localhost',user='root', password='srity_16',database='ZOMATO')
+mydb=mysql.connect(host='localhost',user='root', password='pspy',database='ZOMATO')
 query='create table restaurant(
 dict={}
 def existing_details()
