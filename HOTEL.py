@@ -1,8 +1,9 @@
-import mysql.connector as mysql
+'''import mysql.connector as mysql
 mydb=mysql.connect(host='localhost',user='root', password='pspy',database='ZOMATO')
 query='create table restaurant(
 dict={}
-def existing_details()
+'''
+
 def register():
     for i in dict:
         name=input("Enter your name:")
@@ -21,14 +22,14 @@ def login():
             if ch==1:
                 update()
             elif ch==2:
-                break
+                pass
         def food_list():
             ##database fetched foodlist
             FID=int(input("Enter the item no."))
             ##IF FID IN THE TABLE FETCH REQUIRED DETAILS OF YOUR FOOD AND PERFORM THE FOLLOWING
-            def ch==1:
+            ##if ch==1:
                 ##appending the food item in the database
-            def ch==2:
+            if ch==2:
                 print("Enter your mode of payment")
                 ch=int(input("Enter your choice:"))
                 print("1. UPI/PhonPe")
@@ -39,15 +40,15 @@ def login():
             print("2. To buy the food item")
             print("3. EXIT")
             ch=int(input("Enter your choice:"))
-                if ch==1:
-                    add_item()
-                elif ch==2:
-                    buy_item()
-                elif ch==3:
-                    print("THANY YOU!!PLEASE VISIT AGAIN")
-        def cart():
+            if ch==1:
+                add_item()
+            elif ch==2:
+                buy_item()
+            elif ch==3:
+               print("THANY YOU!!PLEASE VISIT AGAIN")
+        ##def cart():
             ##database fetched cart
-        def offers():
+        ##def offers():
             ##database fetched offers
         
         print("1. To view profile")
@@ -67,7 +68,7 @@ def login():
         elif ch==5:
             print("THANK YOU FOR VISITING")
         else:
-            break
+            pass
 while True:
     print("1.To fetch existing details")
     print("2.To register new customer details")
@@ -83,4 +84,4 @@ while True:
     elif ch==4:
         print("THANK YOU FOR VISITING")
     else:
-        break
+        pass
